@@ -25,7 +25,12 @@ function cos(){
 
 function tag(){
     resultado.value=Math.tan(resultado.value);
-} 
+}
+
+function elevadoDos(){
+    resultado.value=Math.pow(resultado.value, 2);
+}
+
 function elevadoTres(){
     resultado.value=Math.pow(resultado.value, 3);
 }
@@ -33,10 +38,7 @@ function elevadoTres(){
 function raizCuadrada(){
     resultado.value=Math.sqrt(resultado.value,2);
 } 
- 
-function elevadoN(){
-    resultado.value = Math.pow(resultado.value, )
-}
+
 
 function raizCubica(){
     resultado.value = Math.pow(resultado.value, 1/3);
@@ -66,6 +68,11 @@ function fact(){
 
 }
 
+function elevadoN(){
+    resultado.value= Math.pow(resultado.value,)
+}
+
+
 function backspc(){
     resultado.value=resultado.value.substr(0,resultado.value.length-1);
 }
@@ -73,3 +80,4 @@ function backspc(){
 function e(){
     resultado.value=2.71828182846;
 }
+
